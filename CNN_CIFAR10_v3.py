@@ -37,7 +37,6 @@ train_images, test_images = train_images / 255.0, test_images / 255.0
 
 
 #------model components------\
-#https://stackoverflow.com/questions/46841362/where-dropout-should-be-inserted-fully-connected-layer-convolutional-layer
 model = models.Sequential()
 model.add(layers.experimental.preprocessing.RandomFlip())
 
